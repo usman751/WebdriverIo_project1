@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="Demo Tests" timestamp="2024-10-11T20:32:36" time="3.549" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Demo Tests"/>
+      <property name="capabilities" value="chrome.129_0_6668_100.windows"/>
+      <property name="file" value="file:///E:/SQA/WebDriverIO_Project/test/specs/test1.js"/>
+    </properties>
+    <testcase classname="chrome.129_0_6668_100.windows.Demo_Tests" name="My First Test" time="3.54">
+      <system-out><![CDATA[
+COMMAND: GET /session/7b5e1ed0e6f258246950d4af4763206d/window - {}
+RESULT: {}
+COMMAND: POST /session/7b5e1ed0e6f258246950d4af4763206d/element - {"using":"css selector","value":"[name=\"q\"]"}
+RESULT: {"using":"css selector","value":"[name=\"q\"]"}
+COMMAND: POST /session/7b5e1ed0e6f258246950d4af4763206d/element/f.EF099F527A1137F1320C586E4C9DC1D4.d.66B68FDA77163993C90E344A6A531839.e.2/clear - {}
+RESULT: {}
+COMMAND: POST /session/7b5e1ed0e6f258246950d4af4763206d/element/f.EF099F527A1137F1320C586E4C9DC1D4.d.66B68FDA77163993C90E344A6A531839.e.2/value - {"text":"Webdriverio"}
+RESULT: {"text":"Webdriverio"}
+COMMAND: POST /session/7b5e1ed0e6f258246950d4af4763206d/actions - {"actions":[{"id":"action1","type":"key","parameters":{},"actions":[{"type":"keyDown","value":""},{"type":"pause","duration":10},{"type":"keyUp","value":""}]}]}
+COMMAND: DELETE /session/7b5e1ed0e6f258246950d4af4763206d - {}
+COMMAND: GET /session/7b5e1ed0e6f258246950d4af4763206d/window - {}
+RESULT: {"actions":[{"id":"action1","type":"key","parameters":{},"actions":[{"type":"keyDown","value":""},{"type":"pause","duration":10},{"type":"keyUp","value":""}]}]}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

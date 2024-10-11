@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="Recording 10 11 2024 at 3 40 34 PM" timestamp="2024-10-11T20:32:36" time="6.24" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Recording 10/11/2024 at 3:40:34 PM"/>
+      <property name="capabilities" value="chrome.129_0_6668_100.windows"/>
+      <property name="file" value="file:///E:/SQA/WebDriverIO_Project/test/specs/project%201.js"/>
+    </properties>
+    <testcase classname="chrome.129_0_6668_100.windows.Recording_10/11/2024_at_3:40:34_PM" name="tests Recording 10 11 2024 at 3 40 34 PM" time="6.23">
+      <system-out><![CDATA[
+COMMAND: POST /session/b17e2e61b4e6a583a8464b2b82001217/window/rect - {"x":null,"y":null,"width":620,"height":737}
+RESULT: {"x":null,"y":null,"width":620,"height":737}
+COMMAND: GET /session/b17e2e61b4e6a583a8464b2b82001217/window - {}
+RESULT: {}
+COMMAND: GET /session/b17e2e61b4e6a583a8464b2b82001217/url - {}
+RESULT: {}
+COMMAND: POST /session/b17e2e61b4e6a583a8464b2b82001217/element/f.7D86321429E31C781AEEDBAEBD2EC2DF.d.634A88DBD834E4B495CA6882323708F1.e.6/click - {}
+RESULT: {}
+COMMAND: POST /session/b17e2e61b4e6a583a8464b2b82001217/element/f.7D86321429E31C781AEEDBAEBD2EC2DF.d.634A88DBD834E4B495CA6882323708F1.e.6/clear - {}
+RESULT: {}
+COMMAND: POST /session/b17e2e61b4e6a583a8464b2b82001217/element/f.7D86321429E31C781AEEDBAEBD2EC2DF.d.634A88DBD834E4B495CA6882323708F1.e.6/value - {"text":"standard_user"}
+RESULT: {"text":"standard_user"}
+COMMAND: POST /session/b17e2e61b4e6a583a8464b2b82001217/element/f.7D86321429E31C781AEEDBAEBD2EC2DF.d.634A88DBD834E4B495CA6882323708F1.e.8/click - {}
+RESULT: {}
+COMMAND: POST /session/b17e2e61b4e6a583a8464b2b82001217/element/f.7D86321429E31C781AEEDBAEBD2EC2DF.d.634A88DBD834E4B495CA6882323708F1.e.12/click - {}
+RESULT: {}
+COMMAND: POST /session/b17e2e61b4e6a583a8464b2b82001217/actions - {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""}]}]}
+RESULT: {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""}]}]}
+COMMAND: POST /session/b17e2e61b4e6a583a8464b2b82001217/actions - {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyUp","value":""}]}]}
+RESULT: {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyUp","value":""}]}]}
+COMMAND: POST /session/b17e2e61b4e6a583a8464b2b82001217/actions - {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""}]}]}
+RESULT: {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""}]}]}
+COMMAND: POST /session/b17e2e61b4e6a583a8464b2b82001217/element/f.7D86321429E31C781AEEDBAEBD2EC2DF.d.634A88DBD834E4B495CA6882323708F1.e.8/click - {}
+RESULT: {}
+COMMAND: POST /session/b17e2e61b4e6a583a8464b2b82001217/actions - {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyUp","value":""}]}]}
+RESULT: {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyUp","value":""}]}]}
+COMMAND: POST /session/b17e2e61b4e6a583a8464b2b82001217/element/f.7D86321429E31C781AEEDBAEBD2EC2DF.d.634A88DBD834E4B495CA6882323708F1.e.8/clear - {}
+RESULT: {}
+COMMAND: POST /session/b17e2e61b4e6a583a8464b2b82001217/element/f.7D86321429E31C781AEEDBAEBD2EC2DF.d.634A88DBD834E4B495CA6882323708F1.e.8/value - {"text":"secret_sauce"}
+RESULT: {"text":"secret_sauce"}
+COMMAND: POST /session/b17e2e61b4e6a583a8464b2b82001217/element/f.7D86321429E31C781AEEDBAEBD2EC2DF.d.634A88DBD834E4B495CA6882323708F1.e.9/click - {}
+COMMAND: GET /session/b17e2e61b4e6a583a8464b2b82001217/window - {}
+RESULT: {}
+COMMAND: GET /session/b17e2e61b4e6a583a8464b2b82001217/url - {}
+RESULT: {}
+RESULT: {}
+COMMAND: POST /session/b17e2e61b4e6a583a8464b2b82001217/element/f.7D86321429E31C781AEEDBAEBD2EC2DF.d.B6217AD3975085A810A88BE4F9D7E1C7.e.21/click - {}
+RESULT: {}
+COMMAND: POST /session/b17e2e61b4e6a583a8464b2b82001217/element/f.7D86321429E31C781AEEDBAEBD2EC2DF.d.B6217AD3975085A810A88BE4F9D7E1C7.e.22/click - {}
+COMMAND: GET /session/b17e2e61b4e6a583a8464b2b82001217/window - {}
+RESULT: {}
+COMMAND: GET /session/b17e2e61b4e6a583a8464b2b82001217/url - {}
+RESULT: {}
+RESULT: {}
+COMMAND: DELETE /session/b17e2e61b4e6a583a8464b2b82001217 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="My Login application" timestamp="2024-10-11T20:32:36" time="10.49" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="My Login application"/>
+      <property name="capabilities" value="chrome.129_0_6668_100.windows"/>
+      <property name="file" value="file:///E:/SQA/WebDriverIO_Project/test/specs/test.e2e.js"/>
+    </properties>
+    <testcase classname="chrome.129_0_6668_100.windows.My_Login_application" name="should login with valid credentials" time="10.476">
+      <system-out><![CDATA[
+COMMAND: GET /session/42abb767ef7874913c63e61cc632e3ef/window - {}
+RESULT: {}
+COMMAND: POST /session/42abb767ef7874913c63e61cc632e3ef/element/f.22B0E42152F9F330DB1281442E50EAE2.d.224A3611220086617F5F55BA2BE7614D.e.4/clear - {}
+RESULT: {}
+COMMAND: POST /session/42abb767ef7874913c63e61cc632e3ef/element/f.22B0E42152F9F330DB1281442E50EAE2.d.224A3611220086617F5F55BA2BE7614D.e.4/value - {"text":"tomsmith"}
+RESULT: {"text":"tomsmith"}
+COMMAND: POST /session/42abb767ef7874913c63e61cc632e3ef/element/f.22B0E42152F9F330DB1281442E50EAE2.d.224A3611220086617F5F55BA2BE7614D.e.6/clear - {}
+RESULT: {}
+COMMAND: POST /session/42abb767ef7874913c63e61cc632e3ef/element/f.22B0E42152F9F330DB1281442E50EAE2.d.224A3611220086617F5F55BA2BE7614D.e.6/value - {"text":"SuperSecretPassword!"}
+RESULT: {"text":"SuperSecretPassword!"}
+COMMAND: POST /session/42abb767ef7874913c63e61cc632e3ef/element/f.22B0E42152F9F330DB1281442E50EAE2.d.224A3611220086617F5F55BA2BE7614D.e.7/click - {}
+COMMAND: GET /session/42abb767ef7874913c63e61cc632e3ef/window - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/42abb767ef7874913c63e61cc632e3ef/element/f.22B0E42152F9F330DB1281442E50EAE2.d.7167D8BB8999F5F3490378CB2AC7FE04.e.14/text - {}
+RESULT: {}
+COMMAND: DELETE /session/42abb767ef7874913c63e61cc632e3ef - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

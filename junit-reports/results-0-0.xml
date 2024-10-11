@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="Demo Tests" timestamp="2024-10-11T20:32:36" time="4.894" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Demo Tests"/>
+      <property name="capabilities" value="chrome.129_0_6668_100.windows"/>
+      <property name="file" value="file:///E:/SQA/WebDriverIO_Project/test/specs/login.spec.js"/>
+    </properties>
+    <testcase classname="chrome.129_0_6668_100.windows.Demo_Tests" name="Login Test" time="4.878">
+      <system-out><![CDATA[
+COMMAND: GET /session/3c63962c3720675a874646542e39e9f4/window - {}
+RESULT: {}
+COMMAND: POST /session/3c63962c3720675a874646542e39e9f4/element - {"using":"css selector","value":"#user-name"}
+RESULT: {"using":"css selector","value":"#user-name"}
+COMMAND: POST /session/3c63962c3720675a874646542e39e9f4/element/f.82623EF506D49FC34E1CB856211CDE53.d.6AC0306DC1D82EB16486EB3F0C4DA50B.e.6/clear - {}
+RESULT: {}
+COMMAND: POST /session/3c63962c3720675a874646542e39e9f4/element/f.82623EF506D49FC34E1CB856211CDE53.d.6AC0306DC1D82EB16486EB3F0C4DA50B.e.6/value - {"text":"standard_user"}
+RESULT: {"text":"standard_user"}
+COMMAND: POST /session/3c63962c3720675a874646542e39e9f4/element/f.82623EF506D49FC34E1CB856211CDE53.d.6AC0306DC1D82EB16486EB3F0C4DA50B.e.8/clear - {}
+RESULT: {}
+COMMAND: POST /session/3c63962c3720675a874646542e39e9f4/element/f.82623EF506D49FC34E1CB856211CDE53.d.6AC0306DC1D82EB16486EB3F0C4DA50B.e.8/value - {"text":"secret_sauce"}
+RESULT: {"text":"secret_sauce"}
+COMMAND: POST /session/3c63962c3720675a874646542e39e9f4/element/f.82623EF506D49FC34E1CB856211CDE53.d.6AC0306DC1D82EB16486EB3F0C4DA50B.e.9/click - {}
+COMMAND: GET /session/3c63962c3720675a874646542e39e9f4/window - {}
+RESULT: {}
+RESULT: {}
+COMMAND: DELETE /session/3c63962c3720675a874646542e39e9f4 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
