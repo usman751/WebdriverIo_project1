@@ -4,6 +4,6 @@ describe('Demo Tests', function () {
         await $('[name="q"]').setValue("Webdriverio")
         // await $('[name="btnK"]').click()
         browser.keys('Enter')
-        browser.pause(2000)
+        browser.pause(4000)
     })
 })
